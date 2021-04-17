@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(214, 200, 200);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+    width: 800px;
+    height: 1500px;
+    padding: 0 30px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5)
+}
+
+.name {
+    padding-top: 30px;
+}
+
+header {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.details p {
+    padding: 0 5px;
+}
+
+.address {
+    padding-bottom: 10px;
+}
+
+.header {
+    width: 100%;
+    border: 1px solid black;
+    font-weight: bold;
+    border-left: none;
+    border-right: none;
+}
+
+.header h3 {
+    padding: 0;
+    text-align: center;
+}
+
+.education {
+    padding: 10px 0;
+}
+
+.education p {
+    padding: 10px;;
+}
+.dates {
+    text-align: left;
+    width: 150px;
+}
+
+.company {
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 10px;
+} 
+
+td {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+table {
+    padding-bottom: 15px;
+}
+
+.skills ul {
+    padding: 15px 0;
+}
+
+.skills li {
+    margin-left: 50px;
+    padding-bottom: 3px;
+}
+
+.languages ul {
+    padding: 15px 0;
+}
+
+.languages li {
+    margin-left: 50px;
+    padding-bottom: 3px;
+}
+
+
+
